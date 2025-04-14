@@ -54,16 +54,6 @@ function App() {
             >
               9x9 DFS Visualization
             </button>
-            <button
-              className={`px-6 py-3 font-medium text-sm ${
-                activeTab === "game4x4-brute"
-                  ? "bg-indigo-500 text-white"
-                  : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-              }`}
-              onClick={() => setActiveTab("game4x4-brute")}
-            >
-              4x4 Brute Force
-            </button>
             {/* New Compare tab */}
             <button
               className={`px-6 py-3 font-medium text-sm ${
